@@ -86,7 +86,7 @@ p{
 .my-about-mddle .imgWrap {
   width: 580px;
   height: 370px;
-  background: url('../../assets//img/编组\ 7@2x.png') no-repeat left bottom/contain;
+  background: url('https://ffcap.oss-cn-hangzhou.aliyuncs.com/imgs/2021.png') no-repeat left bottom/contain;
   display: flex;
   justify-content: flex-end;
 }

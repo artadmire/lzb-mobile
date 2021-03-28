@@ -1,18 +1,17 @@
 import React, {useState} from 'react'
 import './index.css'
 import MyBottom from  '../../components/myBottom'
-import matic from  '../../assets/img/matic.png'
-import inch from  '../../assets/img/1inch.png'
-import aave from  '../../assets/img/aave.png'
-import dot from  '../../assets/img/dot.png'
-import ksm from  '../../assets/img/ksm.png'
-import mdx from  '../../assets/img/mdx.png'
-import near from  '../../assets/img/near.png'
-import plm from  '../../assets/img/plm.png'
 
 function About() {
   const [tabKay, setTabkey] = useState('1');
-  const [list] = useState([matic,inch,aave,dot,ksm,mdx,near,plm])
+  const [list] = useState(['https://ffcap.oss-cn-hangzhou.aliyuncs.com/imgs/matic.png',
+  'https://ffcap.oss-cn-hangzhou.aliyuncs.com/imgs/1inch.png',
+  "https://ffcap.oss-cn-hangzhou.aliyuncs.com/imgs/aave.png",
+  "https://ffcap.oss-cn-hangzhou.aliyuncs.com/imgs/dot.png",
+  "https://ffcap.oss-cn-hangzhou.aliyuncs.com/imgs/ksm.png",
+  "https://ffcap.oss-cn-hangzhou.aliyuncs.com/imgs/mdx.png",
+  "https://ffcap.oss-cn-hangzhou.aliyuncs.com/imgs/near.png",
+  "https://ffcap.oss-cn-hangzhou.aliyuncs.com/imgs/plm.png"])
 
   function handleChange(key) {
     setTabkey(key)
@@ -33,24 +32,20 @@ function About() {
         <div>
           
           <p className="title">
-          About us Walk With Entrepreneurs
+          Walk With Entrepreneurs
           </p>
           <p className="desc">
-          FFCAP invests in blockchain innovation projects for and is committed to investing in long-term value in new growth areas.
-  We are constantly learning and participating with entrepreneurs in the latest technologies and projects. 
+          FFCAP invests in blockchain innovation projects for and is committed to investing in long-term value in new growth areas. We are constantly learning and participating with entrepreneurs in the latest technologies and projects.
         </p>
-        <p className="titleW">
-        Utilizing capital and solutions to help the best projects and teams grow FFCAP as a professional Token investment institution. 
+        <p className="title">
+        Utilizing capital to help the best projects and teams grow 
         </p>
         <p className="desc">
-        We were involved in investment projects since 2015 and have rich experience in how to invest and operate projects. 
-  We have many partners, including operations, market, technology, exchange, economic model, business model design and other fields. 
-  We can give block chain projects in different stages of development a professional and effective help on a greater degree to help the project to expand its own advantages and characteristics, guiding the project for development of long-term growth. 
+        We were involved in investment projects since 2017 and have rich experience in how to invest and operate projects. We have many partners, including operations, market, technology, exchange, economic model, business model design and other fields. We can give crpto projects in different stages of development a professional and effective help on a greater degree to help the project to expand its own advantages and characteristics, guiding the project for development of long-term growth.
         </p>
-        <p className="title">A long-term value investor with an international perspective.</p>
+        <p className="title">A long-term value investor with an international perspective</p>
           <p>
-          FFCAP has many partners around the world. We devote all our resources to blockchain innovation and long-term value, and for working with the best blockchain teams around the world. 
-      At the same time, FFCAP is looking for more excellent partners in the United States, China and Europe to discover more cutting-edge blockchain business thinking and methods.
+          FFCAP has many partners around the world. We devote all our resources to blockchain innovation and long-term value, and for working with the best blockchain teams around the world. At the same time, FFCAP is looking for more excellent partners in the United States, China and Europe to discover more cutting-edge blockchain business thinking and methods.
           </p>
         </div>
       </div>

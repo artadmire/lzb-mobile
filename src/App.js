@@ -8,7 +8,7 @@ import Contact from './pages/contact'
 import 'antd/dist/antd.css';
 import menu from './assets/img/menu@2x.png'
 import whiteMenu from './assets/img/menu@2x 2.png'
-import close from './assets/img/删除@2x.png'
+import close from './assets/img/delete2.png'
 
 
 

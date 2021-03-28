@@ -1,18 +1,17 @@
 import React, {useState} from 'react'
 import './index.css'
 import MyBottom from  '../../components/myBottom'
-import matic from  '../../assets/img/matic.png'
-import inch from  '../../assets/img/1inch.png'
-import aave from  '../../assets/img/aave.png'
-import dot from  '../../assets/img/dot.png'
-import ksm from  '../../assets/img/ksm.png'
-import mdx from  '../../assets/img/mdx.png'
-import near from  '../../assets/img/near.png'
-import plm from  '../../assets/img/plm.png'
 
 
 function Fud() {
-  const [list] = useState([matic,inch,aave,dot,ksm,mdx,near,plm])
+  const [list] = useState(['https://ffcap.oss-cn-hangzhou.aliyuncs.com/imgs/matic.png',
+  'https://ffcap.oss-cn-hangzhou.aliyuncs.com/imgs/1inch.png',
+  "https://ffcap.oss-cn-hangzhou.aliyuncs.com/imgs/aave.png",
+  "https://ffcap.oss-cn-hangzhou.aliyuncs.com/imgs/dot.png",
+  "https://ffcap.oss-cn-hangzhou.aliyuncs.com/imgs/ksm.png",
+  "https://ffcap.oss-cn-hangzhou.aliyuncs.com/imgs/mdx.png",
+  "https://ffcap.oss-cn-hangzhou.aliyuncs.com/imgs/near.png",
+  "https://ffcap.oss-cn-hangzhou.aliyuncs.com/imgs/plm.png"])
   return (
     <div className="Fud">
         <div className="content">
