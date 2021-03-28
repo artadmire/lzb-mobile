@@ -16,7 +16,7 @@ function Fud() {
     <div className="Fud">
         <div className="content">
         {
-          list.map((item, index) => <img key={index} src={item}/>)
+          list.map((item, index) => <a href="javascript:;"><img key={index} src={item}/></a>)
         }
         </div>
       <MyBottom className="Fud-bottom"/>

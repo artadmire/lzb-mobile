@@ -117,6 +117,6 @@ p{
   height: 77px;
   margin-bottom: 20px;
 }
-.about-content img:nth-child(odd) {
+.about-content a:nth-child(odd) {
   margin-right: 80px;
 }

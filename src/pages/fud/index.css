@@ -12,12 +12,15 @@
   justify-content: center;
   margin-top: 28px;
 } 
+.Fud .content a{
+  display: inline-block;
+}
 .Fud .content img {
   width: 77px;
   height: 77px;
   margin-bottom: 20px;
 }
-.Fud .content img:nth-child(odd) {
+.Fud .content a:nth-child(odd) {
   margin-right: 80px;
 }
 .Fud .card p {
