@@ -19,7 +19,7 @@ function myBottom(props) {
         <a href="javascript:;"><img src={imgURL5}/></a>
       </div>
       <p className="contact">contact@ffcap.com</p>
-      <p className="copy">c© 2021 FFCAP</p>
+      <p className="copy">© 2021 FFCAP</p>
     </div>
   );
 }

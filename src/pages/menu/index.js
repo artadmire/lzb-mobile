@@ -11,8 +11,8 @@ function Menu(props) {
     <div className="Menu">
        <p onClick={() => handleClick('1')} className={`${myKey === '1' && 'active'}`}>Welcome</p>
        <p onClick={() => handleClick('2')} className={myKey === '2' ? 'active' : ''}>About</p>
-       <p onClick={() => handleClick('3')}  className={myKey === '3' ? 'active' :'' }>investments</p>
-       <p onClick={() => handleClick('4')} className={myKey === '4' ? 'active' : ''}>contact</p>
+       <p onClick={() => handleClick('3')}  className={myKey === '3' ? 'active' :'' }>Investments</p>
+       <p onClick={() => handleClick('4')} className={myKey === '4' ? 'active' : ''}>Contact</p>
     </div>
   );
 }

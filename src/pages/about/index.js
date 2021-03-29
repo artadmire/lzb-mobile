@@ -23,7 +23,7 @@ function About() {
           FFCAP
         </span>
         <span onClick={() => handleChange('2')} className={`right ${tabKay === '2' && 'active'}`}>
-        partnerships
+        Partnerships
         </span>
       </div>
       {tabKay === '1' && <>

@@ -36,11 +36,16 @@ function App() {
   function goAbout(key) {
     setTabkey(key)
   }
+  function goHome() {
+    setTabkey('1')
+    showMenu && setShowMenu(false)
+
+  }
   return (
     <div className={`App ${appClass[tabKey]}`}>
         <div className="content">
         <header>
-          <h2 className={tabKey !== '1' ? 'blackBj' : ''}></h2>
+          <h2 onClick={goHome} className={tabKey !== '1' ? 'blackBj' : ''}></h2>
           {!showMenu ? <img onClick={showMenus} src={ tabKey === '1' ?menu : whiteMenu}/> : <img onClick={hideMenu} src={close}/>}
         </header>
         {showMenu && <Menu myKey={tabKey} onHandelClcik={handleClick} />}
